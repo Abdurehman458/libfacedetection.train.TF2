@@ -1,8 +1,6 @@
 # Training for libfacedetection in TensorFlow 2
 
-[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
-
-It is the training program for [libfacedetection](https://github.com/ShiqiYu/libfacedetection). The source code is based on [FaceBoxes.PyTorch](https://github.com/sfzhang15/FaceBoxes.PyTorch) and [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch).
+Training for libfacedetection in Tensorflow2 (https://github.com/ShiqiYu/libfacedetection.train)
 
 Visualization of our network architecture: [[netron]](https://netron.app/?url=https://raw.githubusercontent.com/ShiqiYu/libfacedetection.train/master/tasks/task1/onnx/YuFaceDetectNet.onnx).
 
@@ -15,11 +13,11 @@ Visualization of our network architecture: [[netron]](https://netron.app/?url=ht
 
 
 ## Installation
-1. Install [PyTorch](https://pytorch.org/) >= v1.0.0 following official instruction.
+1. Install TensorFlow2
 
 2. Clone this repository. We will call the cloned directory as `$TRAIN_ROOT`.
 ```Shell
-git clone https://github.com/ShiqiYu/libfacedetection.train
+git clone https://github.com/Abdurehman458/libfacedetection.train.TF2.git
 ```
 
 3. Install dependencies.
@@ -101,5 +99,5 @@ Run on default settings: scales=[1.], confidence_threshold=0.3:
 mAP_tf2=0.659, mAP_torch=0.72
 ```
 
-## Citation
-Our paper, which introduces a novel loss named Extended IoU (EIoU), is coming out soon. We trained our model using the EIoU loss and obtained a performance boost, see [Performance on WIDER Face (Val)](#performance-on-wider-face-(val)) for details. Stay tune for the release of our paper!
+## Note
+For calculating mAP I used this [repo](https://github.com/Cartucho/mAP)
