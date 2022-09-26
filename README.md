@@ -1,4 +1,4 @@
-# Training for libfacedetection in TensorFlow 2
+# TensorFlow 2 implementation of libfacedetection
 
 Training for libfacedetection in Tensorflow2 (https://github.com/ShiqiYu/libfacedetection.train)
 
