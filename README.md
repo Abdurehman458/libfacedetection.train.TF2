@@ -1,6 +1,6 @@
 # TensorFlow 2 implementation of libfacedetection
 
-Training for libfacedetection in Tensorflow2 (https://github.com/ShiqiYu/libfacedetection.train)
+TF2 implementation of libfacedetection (https://github.com/ShiqiYu/libfacedetection.train)
 
 Visualization of our network architecture: [[netron]](https://netron.app/?url=https://raw.githubusercontent.com/ShiqiYu/libfacedetection.train/master/tasks/task1/onnx/YuFaceDetectNet.onnx).
 
